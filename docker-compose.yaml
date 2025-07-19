@@ -12,7 +12,7 @@ services:
       - ./data:/usr/src/app/data
 
     ports:
-      - "8085:8000"
+      - 8000
     environment:
       - DT_ENV=prod
     hostname: donetick-core
